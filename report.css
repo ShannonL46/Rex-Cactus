@@ -1,0 +1,13 @@
+.report{
+    width: 40%;
+    border: 5px solid rgb(88,88,88);
+    background-color: rgba(173, 136, 92, 0.6);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.report li{
+    border: none;
+}

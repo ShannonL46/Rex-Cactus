@@ -8,21 +8,23 @@
     background-color: rgba(173, 136, 92, 0.6);
     color: black;
     align-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
     padding: 10px;
     padding-top: none;
-    margin-top: 50px;
+    margin-top: 5%;
     border: 5px solid rgb(88, 88, 88);
-    color: black;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
 }
 
 #aboutheader{
     border-bottom: 2px solid rgb(88, 88, 88);
+    color: rgb(59, 59, 59)
 }
 
 #aboutimg{
     border: 5px solid rgb(88, 88, 88);
-
+    width:75%;
 }

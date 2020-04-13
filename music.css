@@ -94,4 +94,13 @@
     z-index: -1;
 }*/
 
+@media(max-width: 600px){
+    .musicfiles{
+        display:flex;
+    }
 
+    #main{
+        flex-direction: column;
+        display: flex;
+    }
+}

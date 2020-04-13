@@ -4,7 +4,7 @@ form{
 }
 
 .form-control{
-    width: 500px;
+    width: 90%;
     background: transparent;
     border: none;
     outline: none;
@@ -41,8 +41,8 @@ form .submit:hover{
 .contact-form{
     background-color: rgba(173, 136, 92, 0.6);
     border: 5px solid rgb(88,88,88);
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 50px;
 }
 
@@ -50,4 +50,10 @@ form .submit:hover{
     color: rgb(88,88,88);
     font-weight: bold;
     font-size: 50px;
+}
+
+@media(max-width: 600px){
+    form .submit{
+        font-size: 20px;
+    }
 }

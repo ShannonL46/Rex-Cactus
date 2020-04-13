@@ -8,14 +8,15 @@
    
 }
 
+.shirt-col{
+    display: row;
+}
+
 .shirt-list{
     flex-wrap: wrap;
     border: none;
 }
 
-.product-shirts li{
-    border: none;
-}
 
 .products{
     margin-left: auto;
@@ -31,4 +32,8 @@
 
 .buy-button:hover{
     background-color: rgb(115,115,115);
+}
+
+@media(max-width: 600px){
+    
 }

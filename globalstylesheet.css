@@ -48,6 +48,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 10px 10px rgb(36, 36, 36);
+    z-index: 1;
 }
 
 #left{
@@ -110,3 +111,23 @@ ul {
     padding-left: 20px;
 }
 
+
+@media(max-width: 800px){
+    header{
+        box-sizing: border-box;
+    
+        
+    }
+
+    #left, #right{
+        float:none;
+    }
+
+    #left{
+        display: none;
+    }
+
+    nav a:first-child{
+        border-left:none;
+    }
+}
