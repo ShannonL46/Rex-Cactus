@@ -1,0 +1,22 @@
+
+.root{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*#mainimg{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}*/
+
+#center{
+    flex-grow: 2;
+    align-items: center;
+    width: 100%;
+    z-index: -1;
+}
+

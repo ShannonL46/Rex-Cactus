@@ -1,0 +1,34 @@
+.shirt-img{
+    width: 40%;
+    border: 5px solid rgb(88,88,88);
+}
+
+.product-shirts{
+    margin-top: 50px;
+   
+}
+
+.shirt-list{
+    flex-wrap: wrap;
+    border: none;
+}
+
+.product-shirts li{
+    border: none;
+}
+
+.products{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy-button{
+    background-color: rgb(88,88,88);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.buy-button:hover{
+    background-color: rgb(115,115,115);
+}

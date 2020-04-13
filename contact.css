@@ -1,0 +1,53 @@
+form{
+    margin-top: 50px;
+    transition: linear 1s;
+}
+
+.form-control{
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(88,88,88);
+    color: rgb(88,88,88);
+    font-size: 18px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: rgb(88,88,88);
+    border-color: transparent;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+form .submit:hover{
+    background-color: rgb(115, 115, 115);
+    cursor: pointer;
+}
+
+.contact-form{
+    background-color: rgba(173, 136, 92, 0.6);
+    border: 5px solid rgb(88,88,88);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.contact-form h1{
+    color: rgb(88,88,88);
+    font-weight: bold;
+    font-size: 50px;
+}

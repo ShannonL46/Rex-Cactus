@@ -1,0 +1,97 @@
+.root, .html{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100%;
+}
+
+#center{
+    background-image: url(sand-field-106606\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.musicfiles{
+    margin-top: 50px;
+    align-content: left;
+    
+}
+
+#columns{
+    flex-direction: row;
+    float: left;
+    border:none;
+    
+}
+
+#trackcolumn{
+    width: 400px;
+   border:none;
+}
+
+.tracks{
+    padding: 5px;
+    width: 400px;
+    color: rgb(80, 80, 80);
+    border: none;
+    
+  }
+  audio{
+    box-shadow: 0px 1px 10px rgb(88, 88, 88);
+    padding: 2px;
+  }
+
+.musiclistC-1{
+    width: 700px;
+    height: 100%;
+    list-style: none;
+    flex-direction: column;
+    float: left;
+    display: flex;  
+    flex-wrap: wrap;
+    align-content: left;
+    margin: 0;
+    padding: 0;
+   color: black;
+   text-align: left;
+   font-size: 25px;
+}
+
+.musiclistC-2{
+    width: 700px;
+    height: 100%;
+    list-style: none;
+    flex-direction: column;
+    float: left;
+    display: flex;  
+    flex-wrap: wrap;
+    align-content: left;
+    margin: 0;
+    padding: 0;
+   color: rgb(0, 0, 0);
+   text-align: left;
+   font-size: 25px;
+}
+
+#imglist{
+    border:none;
+}
+
+#bandimg{
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid rgb(88, 88, 88);
+    box-shadow: 0px 1px 10px rgb(88, 88, 88);
+    
+}
+
+/*#center{
+    flex-grow: 2;
+    align-items: center;
+    width: 100%;
+    background-image: url(guitar.jpg);
+    background-size: cover;
+    z-index: -1;
+}*/
+
+
